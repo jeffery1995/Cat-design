@@ -1,6 +1,7 @@
 {
   "name": "cat-ui",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "main": "./src/main.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"

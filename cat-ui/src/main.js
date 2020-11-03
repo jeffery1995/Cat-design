@@ -1,8 +1,10 @@
-import HelloWorld from './components/HelloWorld.vue'
+import Button from './components/Button.vue'
 
 const components = [
-  HelloWorld,
+  Button,
 ]
+
+
 const install = function (Vue, opts = {}) {
   components.forEach(component => {
     Vue.component(component.name, component)
