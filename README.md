@@ -1,4 +1,3 @@
-# Cat-design
 
 # Description
   A ui lib using vue3. support partial import. 
