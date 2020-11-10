@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import { computed, toRefs } from 'vue'
 export default {
   name: 'cat-btn',
   props: {
@@ -26,15 +25,14 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.cat-botton {
+<style lang="scss">
+
+.cat-button {
    background: $color-primary;
 }
 .cat-button-small {
 
 }
-
-
 .cat-button-medium {
   width: 200px;
   height: 100px;
