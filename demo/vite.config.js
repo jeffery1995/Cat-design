@@ -1,0 +1,42 @@
+
+export default {
+  cssPreprocessOptions: {
+    scss: {
+      additionalData: `
+      $color-primary: #1199fa !default;
+      $color-success: #13b887 !default;
+      $color-error: #d33 !default;
+      $color-danger: #e64b60 !default;
+      $color-warn: #ffbf00 !default;
+      
+      $color-background-success: #d8f1ed !default;
+      $color-background-error: #ffb3b3 !default;
+      $color-background-grey: #d8d8d833 !default;
+      $color-border: #d6d6d6 !default;
+      
+      $color-main-dark: #022043 !default;
+      $color-main-light: #002a67 !default;
+      
+      $color-block-dark: #0d2a53 !default;
+      $color-white: #fff !default;
+      $color-black: #000 !default;
+      $color-light-text: #fff !default;
+      $color-dark-text: #0b1426 !default;
+      $color-grey-text: #626973 !default;
+      $color-green: #20bca4 !default;
+      
+      $color-btn-dark: #027bff !default;
+      $color-btn-light: #1199fa !default;
+      
+      $user-detail-select-hover: rgba(17, 153, 250, 0.1) !default;
+      
+      
+      $breakpoints: (
+        sm: 768px,
+        md: 992px,
+        lg: 1200px
+      ) !default;
+      `
+    }
+  }
+}

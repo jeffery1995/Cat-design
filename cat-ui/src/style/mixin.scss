@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+/*********** Media Query Mixins ***********/
+
+// breakpoint up
+@mixin breakpoint-up($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $str: 'min-width: #{map-get($breakpoints, $breakpoint)}';
+
+    @media (#{$str}) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: sm, md, lg";
+  }
+}
+
+// breakpoint down
+@mixin breakpoint-down($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $str: 'max-width: #{map-get($breakpoints, $breakpoint) - 0.02}';
+
+    @media (#{$str}) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: sm, md, lg";
+  }
+}
