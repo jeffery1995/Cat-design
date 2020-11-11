@@ -1,7 +1,12 @@
 import Button from './components/Button'
+import Layout from './components/Layout'
+import { MainHeader, MainFooter } from './components/Layout'
 
 const components = [
   Button,
+  Layout,
+  MainHeader, 
+  MainFooter
 ]
 
 

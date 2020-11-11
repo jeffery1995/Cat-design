@@ -1,15 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+ <cat-layout>
+   <template #header>
+     <cat-main-header :options="routeOptions"></cat-main-header>
+   </template>
+   <router-view></router-view>
+ </cat-layout>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  computed: {
+    routeOptions () {
+      return [
+        {
+          name: 'Home',
+          url: '/'
+        },
+      ]
+    }
   }
 }
 </script>
