@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'cat-btn',
+  name: 'mepo-btn',
   props: {
     size: {
       type: String,
@@ -17,8 +17,8 @@ export default {
     classList () {
       const { size } = this
       return [
-      "cat-button",
-      `cat-button-${size}`
+      "mepo-button",
+      `mepo-button-${size}`
      ]
     }
   },
@@ -27,13 +27,13 @@ export default {
 
 <style lang="scss">
 
-.cat-button {
+.mepo-button {
    background: $color-primary;
 }
-.cat-button-small {
+.mepo-button-small {
 
 }
-.cat-button-medium {
+.mepo-button-medium {
   width: 200px;
   height: 100px;
 }

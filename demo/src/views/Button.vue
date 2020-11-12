@@ -1,6 +1,6 @@
 <template>
   <h1>{{ msg }}</h1>
-  <cat-btn>count is: {{ count }}</cat-btn>
+  <mepo-btn>count is: {{ count }}</mepo-btn>
   <p>Edit <code>components/HelloWorld.vue</code> to test hot module replacement.</p>
 </template>
 

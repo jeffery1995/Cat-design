@@ -1,8 +1,8 @@
 <template>
-  <div class="cat-layout">
+  <div class="mepo--layout">
     <slot v-show="headerVisible" name="header">
     </slot>
-    <div class="cat-layout-body">
+    <div class="mepo--layout-body">
       <slot name="body"></slot>
     </div>
     <slot v-show="footerVisible" name="footer">
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'cat-layout',
+  name: 'mepo--layout',
   props: {
     headerVisible: {
       type: Boolean,
@@ -27,14 +27,14 @@ export default {
 </script>
 
 <style>
-.cat-layout {
+.mepo--layout {
   position: relative;
   height: 100vh;
   width: 100vw;
   background-color: floralwhite;
 }
 
-.cat-layout-body {
+.mepo--layout-body {
   position: relative;
 }
 

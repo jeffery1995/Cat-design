@@ -1,5 +1,5 @@
 <template>
-  <div class="cat-main-header">
+  <div class="mepo-main-header">
     <slot>
       <div class="header-options">
         <div v-for="option in options" :key="option.url">
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'cat-main-header',
+  name: 'mepo-main-header',
   props: {
     options: {
       type: Array,
@@ -28,7 +28,7 @@ export default {
 </script>
 
 <style>
-.cat-main-header {
+.mepo-main-header {
   position: sticky;
   top: 0;
   height: 10vh;

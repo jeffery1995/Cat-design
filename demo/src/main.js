@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import ui from 'cat-ui'
+import ui from 'mepo-ui'
 import './index.css'
 import  {createRouter, createWebHistory} from 'vue-router'
 import routes from './route'

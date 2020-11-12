@@ -6,7 +6,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "cat-ui": "0.1.0",
+    "mepo-ui": "0.1.0",
     "vue": "^3.0.2",
     "vue-router": "^4.0.0-rc.2"
   },

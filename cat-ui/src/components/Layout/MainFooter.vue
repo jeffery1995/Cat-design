@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'cat-main-footer',
+  name: 'mepo-main-footer',
 }
 </script>
 

@@ -10,8 +10,8 @@ export default [
 	{
 		input: 'src/main.js',
 		output: {
-			name: 'cat-ui',
-			file: './dist/cat-ui.csj.js',
+			name: 'mepo-ui',
+			file: './dist/mepo-ui.csj.js',
 			format: 'cjs'
 		},
 		plugins: [
@@ -31,8 +31,8 @@ export default [
 	{
 		input: 'src/main.js',
 		output: {
-			name: 'cat-ui',
-			file: './dist/cat-ui.esm.js',
+			name: 'mepo-ui',
+			file: './dist/mepo-ui.esm.js',
 			format: 'esm'
 		},
 		plugins: [
